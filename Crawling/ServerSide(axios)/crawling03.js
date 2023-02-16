@@ -15,7 +15,7 @@ const path = require('path'); //파일경로 관련 라이브러리
 //비동기 입출력 지원 함수
 async function main(){
     const url = 'https://www.hanbit.co.kr/store/books/new_book_list.html';
-    // 수집한 개인정보를 저장하기위한 배열선언
+    // 수집한 정보를 저장하기위한 배열선언
     let [titles,writers,prices,books]=[[],[],[],[]];
 
 
