@@ -7,15 +7,15 @@
 
 ### ChromDriver 설치
 * selenium을 실행하다보면 아래와 같은 경고창이 뜰 수도 있다.
->![이미지](../imgs/result0213018.png)
+>![이미지](../../imgs/result0213018.png)
 * 해당 경고는 현재 사용하는 브라우저의 버전과 selenium의 drive버전이 맞지 않기때문에 발생한다.
 * 따라서 다음과 같이 [ChromeDriver](https://chromedriver.chromium.org/downloads)사이트에 접속한 뒤 버전에 맞는 드라이버를 다운로드 한다.
->![이미지](../imgs/result0213014.png)
->![이미지](../imgs/result0213015.png)
->![이미지](../imgs/result0213016.png)
+>![이미지](../../imgs/result0213014.png)
+>![이미지](../../imgs/result0213015.png)
+>![이미지](../../imgs/result0213016.png)
 
 * 다운 받은 드라이버의 실행파일을 현재 selenium이 설치된 폴더에 넣는다.
->![이미지](../imgs/result0213019.png)
+>![이미지](../../imgs/result0213019.png)
  
 ### [다음영화 페이지 크롤링](./crawling06.js)
 * https://movie.daum.net/main 사이트에서 '상영중'인 영화정보 긁어오기
@@ -74,7 +74,7 @@ try{
 
 ```
 >결과<br>
-> ![이미지](../imgs/result0213007.png)
+> ![이미지](../../imgs/result0213007.png)
 
 ### [다음영화페이지크롤링2](./crawling06B.js)
 * selenium을 사용하면 cheerio없이 바로 dom탐색이 가능하다.
@@ -136,7 +136,7 @@ async function main(){
 main()
 ```
 >결과<br>
-> ![이미지](../imgs/result0213007.png)
+> ![이미지](../../imgs/result0213007.png)
 
 
 ### [네이버 자동로그인](./crawling07.js)
@@ -267,7 +267,7 @@ try{
 ```
 
 >결과<br>
-> ![이미지](../imgs/result0214001.png)
+> ![이미지](../../imgs/result0214001.png)
 
 
 ### [k-apt 단지정보 내 주차대수 가져오기](./crawling08.js)
@@ -474,4 +474,4 @@ try{
 ```
 
 >결과<br>
-> ![이미지](../imgs/result0214002.png)
+> ![이미지](../../imgs/result0214002.png)

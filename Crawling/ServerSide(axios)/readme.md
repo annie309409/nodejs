@@ -8,7 +8,7 @@
 * 잡코리아-사람인, 야놀자-여기어때, 네이버-다윈중개, 링크드인-하이큐랩스
 * 크롤링/스크래핑 허용여부는 robots.txt에 명시되어 있음
 > 참고 <br>
-> ![이미지](./imgs/result0210012.png)
+> ![이미지](../.../../imgs/result0210012.png)
 
 ## 크롤링의 제약
 * 일반적으로 사용하는 axios는 서버사이드에서 제공된 html파일에 대해서만 크롤링 할 수 있다.
@@ -40,7 +40,7 @@ const main = ()=>{
 main();
 ```
 > 결과<br>
-> ![이미지](./imgs/result0210008.png)
+> ![이미지](../../imgs/result0210008.png)
 
 ### cheerio
 * ajax통신을 통한 웹문서를 dom형태의 객체로 가져오게 만들어주는 라이브러리
@@ -72,7 +72,7 @@ main();
 
 ```
 > 결과<br>
-> ![이미지](./imgs/result0210010.png)
+> ![이미지](../../imgs/result0210010.png)
 
 
 
@@ -80,7 +80,7 @@ main();
 * cheerio사용을 통한 dom객체 내의 책 이름 가져오기
 * 크롤링하려는 사이트의 책 타이틀의 이름을 가진 dom을 먼저 파악해야한다.
 > 참고 <br>
-> ![이미지](./imgs/result0210011.png)
+> ![이미지](../../imgs/result0210011.png)
 
 * dom을 파악하고 dom()함수를 사용해서 해당 설정에 맞는 dom과 그에따른 텍스트를 출력한다.
 ```javascript
@@ -124,7 +124,7 @@ const {XMLParser}= require('fast-xml-parser');
 * xml파일을 가져올때 사용하는 라이브러리이다.
 * xml형식의 파일은 다음과 같이 시작태그와 끝태그로 구분되어있어 불필요하게 데이터 용량이 높아지게 된다.
 > 예시이미지 <br>
-> ![이미지](./imgs/result0213001.png)
+> ![이미지](../../imgs/result0213001.png)
 
 * 따라서 XMLParser를 이용하여 다음과 같이 json 타입의 데이터로 출력할 수 있다.
 ```javascript
@@ -162,9 +162,9 @@ const {XMLParser}= require('fast-xml-parser');
 ```
 > 결과 <br>
 > before(xml) <br>
-> ![이미지](./imgs/result0213003.png)
+> ![이미지](../../imgs/result0213003.png)
 > after(json)<br>
-> ![이미지](./imgs/result0213002.png)
+> ![이미지](../../imgs/result0213002.png)
 
 ### 통신데이터 파일저장
 
